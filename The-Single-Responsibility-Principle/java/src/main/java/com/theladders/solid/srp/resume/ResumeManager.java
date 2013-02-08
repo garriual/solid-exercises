@@ -4,6 +4,7 @@ import com.theladders.solid.srp.jobseeker.Jobseeker;
 
 public class ResumeManager
 {
+  //a pool for all the resume
   private final ResumeRepository resumeRepository;
 
   public ResumeManager(ResumeRepository resumeRepository)

@@ -3,6 +3,7 @@ package com.theladders.solid.srp.jobseeker;
 
 public class JobseekerProfileManager
 {
+  //jobseeker pool
   private final JobseekerProfileRepository repository;
 
   public JobseekerProfileManager(JobseekerProfileRepository repository)
