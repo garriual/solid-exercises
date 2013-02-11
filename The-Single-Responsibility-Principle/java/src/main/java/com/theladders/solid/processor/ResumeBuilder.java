@@ -8,7 +8,7 @@ import com.theladders.solid.srp.resume.ResumeManager;
 
 public class ResumeBuilder
 {
-
+  // "or".....upload vs apply rollback
   public static Resume saveNewOrRetrieveExistingResume(String newResumeFileName,
                                                  Jobseeker jobseeker,
                                                  HttpRequest request,

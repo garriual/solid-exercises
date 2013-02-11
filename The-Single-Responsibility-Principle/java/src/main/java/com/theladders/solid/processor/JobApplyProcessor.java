@@ -94,8 +94,8 @@ public class JobApplyProcessor
     Resume resume = ResumeBuilder.saveNewOrRetrieveExistingResume(fileName,
                                                                   jobseeker,
                                                                   request,
-                                                                  this.resumeManager,
-                                                                  this.myResumeManager);
+                                                                  resumeManager,
+                                                                  myResumeManager);
     UnprocessedApplication application = new UnprocessedApplication(jobseeker, job, resume); 
     JobApplicationResult applicationResult = jobApplicationSystem.apply(application);
 
